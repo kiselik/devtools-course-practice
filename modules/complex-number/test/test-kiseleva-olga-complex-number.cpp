@@ -6,7 +6,7 @@
 
 #include "include/complex_number.h"
 
-//trial test!!!
+// trial test!!!
 TEST(Kiseleva_Olga_ComplexNumberTest, Can_Create_Not_Zero) {
     // Arrange
     double re = 1.5;

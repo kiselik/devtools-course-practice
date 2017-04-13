@@ -15,14 +15,15 @@ TEST(Kiseleva_Olga_ComplexNumberTest, Can_Create_Not_Zero) {
     ComplexNumber z(re, im);
 
     // Assert
-    EXPECT_EQ(re, z.getRe());
-    EXPECT_EQ(im, z.getIm());
+    EXPECT_DOUBLE_EQ(re, z.getRe());
+    EXPECT_DOUBLE_EQ(im, z.getIm());
 }
 TEST(Kiseleva_Olga_ComplexNumberTest, Do_Throw_When_Division_By_Double_Min) {
     // Arrange
     double min = std::numeric_limits<double>::min();
     double re = 10.2;
     double im = -89.3;
+
     // Act
     ComplexNumber z1(min, min);
     ComplexNumber z2(re, im);

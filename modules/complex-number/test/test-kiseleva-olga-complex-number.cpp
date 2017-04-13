@@ -85,6 +85,7 @@ TEST(Kiseleva_Olga_ComplexNumberTest,
     double min = std::numeric_limits<double>::min();
     double re = 150.4;
     double im = -42301.32;
+
     // Act
     ComplexNumber z1(min, min);
     ComplexNumber z2(re, im);

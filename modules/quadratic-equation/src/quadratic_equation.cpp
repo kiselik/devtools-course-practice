@@ -100,4 +100,3 @@ ComplexNumber QuadraticEquation::GetComplexX2(void) const {
         result.setIm(-sqrt(-Discriminant()) / 2 * coef_a_);
     return result;
 }
-
